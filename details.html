@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="./frontend/libraries/bootstrap/css/bootstrap.css"
     />
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
@@ -90,7 +91,58 @@
               <div class="card card-details">
                 <h1>Bromo</h1>
                 <p>Republic of Indonesia Raya</p>
-                <div class="gallery"></div>
+                <div class="gallery">
+                  <div class="xzoom-container">
+                    <img
+                      src="frontend/images/Mask Group 9.jpg"
+                      class="xzoom"
+                      id="xzoom-default"
+                      xoriginal="frontend/images/Mask Group 9.jpg"
+                    />
+                  </div>
+                  <div class="xzoom-thumbs">
+                    <a href="frontend/images/Mask Group 9.jpg">
+                      <img
+                        src="frontend/images/Mask Group 9.jpg"
+                        class="xzoom-gallery"
+                        width="128"
+                        xpreview="frontend/images/Mask Group 9.jpg"
+                      />
+                    </a>
+                    <a href="frontend/images/Mask Group 10.jpg">
+                      <img
+                        src="frontend/images/Mask Group 10.jpg"
+                        class="xzoom-gallery"
+                        width="128"
+                        xpreview="frontend/images/Mask Group 10.jpg"
+                      />
+                    </a>
+                    <a href="frontend/images/Mask Group 11.jpg">
+                      <img
+                        src="frontend/images/Mask Group 11.jpg"
+                        class="xzoom-gallery"
+                        width="128"
+                        xpreview="frontend/images/Mask Group 11.jpg"
+                      />
+                    </a>
+                    <a href="frontend/images/Mask Group 12.jpg">
+                      <img
+                        src="frontend/images/Mask Group 12.jpg"
+                        class="xzoom-gallery"
+                        width="128"
+                        xpreview="frontend/images/Mask Group 12.jpg"
+                      />
+                    </a>
+                    <a href="frontend/images/Mask Group 13.jpg">
+                      <img
+                        src="frontend/images/Mask Group 13.jpg"
+                        class="xzoom-gallery"
+                        width="128"
+                        xpreview="frontend/images/Mask Group 13.jpg"
+                      />
+                    </a>
+                  </div>
+                </div>
                 <h2>Tentang Wisata</h2>
                 <p>
                   Mount Bromo (Indonesian: Gunung Bromo), is an active volcano
@@ -204,5 +256,16 @@
     <script src="./frontend/libraries/jquery/jquery-3.5.1.min.js"></script>
     <script src="./frontend/libraries/bootstrap/js/bootstrap.js"></script>
     <script src="frontend/libraries/retina/retina.min.js"></script>
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".xzoom, .xzoom-gallery").xzoom({
+          zoomWidth: 500,
+          title: false,
+          tint: "#333",
+          Xoffset: 15,
+        });
+      });
+    </script>
   </body>
 </html>
