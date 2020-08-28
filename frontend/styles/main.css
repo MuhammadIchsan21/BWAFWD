@@ -37,7 +37,7 @@ body {
 header {
   margin-top: -68px;
   padding: 180px 0 165px;
-  background-image: url("../images/header-background.jpg");
+  background-image: url("../images/header.jpg");
   background-size: cover;
 }
 
@@ -412,5 +412,32 @@ header .btn-get-started:hover {
 
 .section-details-content .gj-datepicker .input-group-append .btn {
   padding-right: 30px;
+}
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #071c4d;
+}
+
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background-color: #071c4d;
+  color: #fff;
+}
+
+.section-success .btn-home-page:hover {
+  background-color: #2a488e;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
