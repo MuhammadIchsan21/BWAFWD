@@ -1,11 +1,19 @@
 body {
-  background-color: #ffffff;
+  background-color: #fff;
   font-family: "Assistant", sans-serif;
   color: #071c4d;
 }
 
 .navbar-brand img {
   max-height: 40px;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -17,28 +25,19 @@ body {
   color: #071c4d !important;
 }
 
-.btn-navbar-right {
-  margin-top: -10px !important;
-  margin-bottom: -8px !important;
-  margin-right: -18px !important;
-  height: 70px;
-  border-radius: 0;
-}
-
 .btn-login {
   background-color: #071c4d;
-  color: #ffffff;
+  color: #fff;
 }
 
 .btn-login:hover {
-  background-color: #1e3771;
   color: #fff;
 }
 
 header {
+  margin-top: -68px;
   padding: 180px 0 165px;
-  margin-top: -70px;
-  background-image: url("../images/header.jpg");
+  background-image: url("../images/header-background.jpg");
   background-size: cover;
 }
 
@@ -50,7 +49,6 @@ header p {
 header h1 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  font-size: 50px;
 }
 
 header p {
@@ -63,7 +61,6 @@ header .btn-get-started {
 }
 
 header .btn-get-started:hover {
-  background-color: #ffaa69;
   color: #fff;
 }
 
@@ -73,7 +70,7 @@ header .btn-get-started:hover {
 
 .section-stats .stats-detail {
   padding-top: 15px;
-  background-color: #fff;
+  background: #fff;
   padding-left: 40px;
 }
 
@@ -89,7 +86,7 @@ header .btn-get-started:hover {
 
 .section-popular {
   min-height: 540px;
-  background-color: #051334;
+  background: #051334;
   margin-top: -50px;
   margin-bottom: -230px;
 }
@@ -106,39 +103,33 @@ header .btn-get-started:hover {
 .section-popular .section-popular-heading h2 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  font-size: 40px;
-}
-
-.section-popular .section-popular-heading p {
-  font-size: 18px;
 }
 
 .section-popular-content .section-popular-travel .card-travel {
   min-height: 380px;
-  background-color: #ddd;
+  background: #fff;
   color: #fff;
   padding: 30px;
   background-size: cover;
   margin-bottom: 20px;
 }
 
-.section-popular-content .section-popular-travel .travel-country {
+.section-popular-content .section-popular-travel .card-travel .travel-country {
   font-size: 18px;
   color: #fff;
 }
 
-.section-popular-content .section-popular-travel .travel-location {
+.section-popular-content .section-popular-travel .card-travel .travel-location {
   font-size: 26px;
   color: #fff;
 }
 
-.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+.section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details {
   background-color: #ff9e53;
   color: #fff;
 }
 
-.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
-  background-color: #ffae6f;
+.section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details:hover {
   color: #fff;
 }
 
@@ -152,88 +143,76 @@ header .btn-get-started:hover {
 .section-networks h2 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  font-size: 40px;
-}
-
-.section-networks p {
-  font-size: 18px;
 }
 
 .section-networks img {
   max-width: 100%;
 }
 
-.section-testimonial-heading {
-  background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(0%, #fff), color-stop(100%, #f7f9ff), to(#efefef));
-  background: linear-gradient(#fff 0%, #fff 0%, #f7f9ff 100%, #efefef 100%);
+.section-testimonials-heading {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
   padding-top: 50px;
   min-height: 506px;
 }
 
-.section-testimonial-heading h2 {
+.section-testimonials-heading h2 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  font-size: 40px;
 }
 
-.section-testimonial-heading p {
-  font-size: 18px;
-}
-
-.section-testimonial-content {
+.section-testimonials-content {
   margin-top: -300px;
   padding-bottom: 50px;
 }
 
-.section-testimonial-content .card-testimonial {
+.section-testimonials-content .card-testimonial {
   padding: 40px 20px 10px;
   border-radius: 11px;
   margin-bottom: 20px;
 }
 
-.section-testimonial-content .card-testimonial .testimonial-content {
+.section-testimonials-content .card-testimonial .testimonial-content {
   min-height: 380px;
 }
 
-.section-testimonial-content .card-testimonial h3 {
+.section-testimonials-content .card-testimonial h3 {
   font-size: 22px;
 }
 
-.section-testimonial-content .card-testimonial .testimonial {
-  font-weight: 200;
+.section-testimonials-content .card-testimonial .testimonials {
   font-size: 26px;
+  text-align: center;
   color: #6e6e6e;
-  min-height: 160px;
+  font-weight: 200;
 }
 
-.section-testimonial-content .card-testimonial .trip-to {
+.section-testimonials-content .card-testimonial .trip-to {
   font-weight: normal;
   font-size: 22px;
   color: #6e6e6e;
 }
 
-.section-testimonial-content .card-testimonial hr {
+.section-testimonials-content .card-testimonial hr {
   margin-left: -20px;
   margin-right: -20px;
 }
 
-.section-testimonial-content .btn-get-started {
+.section-testimonials-content .btn-get-started {
   background-color: #ff9e53;
   color: #fff;
 }
 
-.section-testimonial-content .btn-get-started:hover {
-  background-color: #ffaa69;
+.section-testimonials-content .btn-get-started:hover {
   color: #fff;
 }
 
-.section-testimonial-content .btn-need-help {
+.section-testimonials-content .btn-need-help {
   background-color: #f2f2f2;
   color: #c3c3c3;
 }
 
-.section-testimonial-content .btn-need-help:hover {
-  background-color: #fafafa;
+.section-testimonials-content .btn-need-help:hover {
   color: #c3c3c3;
 }
 
@@ -244,7 +223,7 @@ header .btn-get-started:hover {
 .section-details-header {
   min-height: 310px;
   background: #e4e6eb;
-  margin-top: -70px;
+  margin-top: -68px;
 }
 
 .section-details-content {
@@ -268,6 +247,28 @@ header .btn-get-started:hover {
   border-radius: 11px;
 }
 
+.section-details-content .card-details .trip-informations th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071c4d;
+}
+
+.section-details-content .card-details .trip-informations td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details .trip-informations .text-blue {
+  color: #071c4d;
+  font-weight: bold;
+}
+
+.section-details-content .card-details .trip-informations .text-orange {
+  color: #ff9e53;
+  font-weight: bold;
+}
+
 .section-details-content .card-details h1 {
   font-size: 26px;
 }
@@ -281,22 +282,10 @@ header .btn-get-started:hover {
   color: #b1b1b1;
 }
 
-.section-details-content .card-details .trip-informations th {
+.section-details-content .card-details .payment-instructions {
   font-weight: 300;
-  font-size: 18px;
-  color: #071c4d;
-}
-
-.section-details-content .card-details .trip-informations td {
-  font-weight: 300;
-  font-size: 18px;
-  color: #b1b1b1;
-}
-
-.section-details-content .card-details h3 {
-  font-weight: 600;
   font-size: 14px;
-  color: #071c4d;
+  color: #b1b1b1;
 }
 
 .section-details-content .card-details .disclaimer {
@@ -305,29 +294,27 @@ header .btn-get-started:hover {
   color: #b1b1b1;
 }
 
-.section-details-content .card-details .gj-datepicker .datepicker {
-  border-right: 0;
-}
-
-.section-details-content .card-details .gj-datepicker .input-group-append .btn {
-  padding-right: 30px;
-  padding-bottom: 2px;
-}
-
-.section-details-content .card-details .btn-add-now {
-  background-color: #071c4d;
-  color: #fff;
-}
-
-.section-details-content .card-details .btn-add-now:hover {
-  background-color: #1b3b86;
-  color: #fff;
-}
-
 .section-details-content .card-right {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-  border-bottom: 0;
+  border-bottom: none;
+}
+
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 2px solid #1abc9c;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .section-details-content .features {
@@ -356,30 +343,8 @@ header .btn-get-started:hover {
   float: left;
 }
 
-.section-details-content .gallery .xzoom-container {
-  display: block;
-}
-
-.section-details-content .gallery .xzoom-container .xzoom {
-  width: 100%;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  margin-bottom: 10px;
-}
-
-.section-details-content .gallery .xzoom-container .xactive {
-  border: 4px solid #1abc9c;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-.section-details-content .member .member-image {
-  width: 40px;
-  height: 40px;
-}
-
 .section-details-content .join-container {
-  margin-top: -48px;
+  margin-top: -16px;
 }
 
 .section-details-content .btn-join-now {
@@ -389,7 +354,63 @@ header .btn-get-started:hover {
 }
 
 .section-details-content .btn-join-now:hover {
-  background-color: #ffb57c;
   color: #fff;
+}
+
+.section-details-content .bank .bank-item h3 {
+  font-size: 18px;
+  color: #071c4d;
+  margin-bottom: 0;
+}
+
+.section-details-content .bank .bank-item p {
+  margin-bottom: 0;
+}
+
+.section-details-content .bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .bank .bank-item .description p {
+  font-family: Assistant;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  color: #071c4d;
+}
+
+.section-details-content .bank .bank-item .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .btn-add-now {
+  background-color: #071c4d;
+  color: #fff;
+}
+
+.section-details-content .btn-add-now:hover {
+  color: #fff;
+}
+
+.section-details-content .input-group-text {
+  background-color: transparent;
+}
+
+.section-details-content h3 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #071c4d;
+}
+
+.section-details-content .gj-datepicker .datepicker {
+  border-right: 0;
+}
+
+.section-details-content .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
 }
 /*# sourceMappingURL=main.css.map */
