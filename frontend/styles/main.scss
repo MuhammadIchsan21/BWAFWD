@@ -266,6 +266,50 @@ header {
       font-size: 18px;
       color: #b1b1b1;
     }
+
+    .trip-informations {
+      th {
+        font-weight: 300;
+        font-size: 18px;
+        color: #071c4d;
+      }
+      td {
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+      }
+    }
+    h3 {
+      font-weight: 600;
+      font-size: 14px;
+      color: #071c4d;
+    }
+    .disclaimer {
+      font-weight: 300;
+      font-size: 14px;
+      color: #b1b1b1;
+    }
+
+    .gj-datepicker {
+      .datepicker {
+        border-right: 0;
+      }
+      .input-group-append {
+        .btn {
+          padding-right: 30px;
+          padding-bottom: 2px;
+        }
+      }
+    }
+    .btn-add-now {
+      background-color: #071c4d;
+      color: #fff;
+
+      &:hover {
+        background-color: #1b3b86;
+        color: #fff;
+      }
+    }
   }
   .card-right {
     border-bottom-left-radius: 0;
