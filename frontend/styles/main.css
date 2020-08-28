@@ -281,46 +281,72 @@ header .btn-get-started:hover {
   color: #b1b1b1;
 }
 
-.features {
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.section-details-content .features {
   margin-top: 20px;
 }
 
-.features h3 {
+.section-details-content .features h3 {
   font-size: 18px;
   color: #071c4d;
   margin-bottom: 0;
 }
 
-.features p {
+.section-details-content .features p {
   margin-bottom: 0;
 }
 
-.features .description {
+.section-details-content .features .description {
   margin-left: 10px;
   overflow: hidden;
   float: left;
 }
 
-.features .features-image {
+.section-details-content .features .features-image {
   width: 45px;
   height: 45px;
   float: left;
 }
 
-.features .gallery .xzoom-container {
+.section-details-content .gallery .xzoom-container {
   display: block;
 }
 
-.features .gallery .xzoom-container .xzoom {
+.section-details-content .gallery .xzoom-container .xzoom {
   width: 100%;
   -webkit-box-shadow: none;
           box-shadow: none;
   margin-bottom: 10px;
 }
 
-.features .gallery .xzoom-container .xactive {
+.section-details-content .gallery .xzoom-container .xactive {
   border: 4px solid #1abc9c;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+.section-details-content .member .member-image {
+  width: 40px;
+  height: 40px;
+}
+
+.section-details-content .join-container {
+  margin-top: -48px;
+}
+
+.section-details-content .btn-join-now {
+  background-color: #ff9e53;
+  color: #fff;
+  border-radius: 0;
+}
+
+.section-details-content .btn-join-now:hover {
+  background-color: #ffb57c;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
